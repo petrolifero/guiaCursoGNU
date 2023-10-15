@@ -1,0 +1,33 @@
+\documentclass{beamer}
+\usetheme{default}
+\usepackage{import}
+\usepackage{xpatch}
+\makeatletter
+\patchcmd\beamer@@tmpl@frametitle{\insertframetitle}{\insertsection-\insertframetitle}{}{}
+\makeatother
+\setbeamertemplate{frametitle continuation}[from second] 
+\title{Shell e GNU básico}
+\author{João Pedro Abreu de Souza}
+\begin{document}
+\maketitle
+\section{Preparação}
+\begin{frame}{Perguntas Básicas}
+	\begin{itemize}
+		\item Quantos aqui já utilizaram GNU
+		\pause
+		\item Quantos aqui já programaram em C
+		\pause
+		\item Quantos aqui já fizeram Sistemas Operacionais
+	\end{itemize}
+\end{frame}
+\begin{frame}{Organização do minicurso}
+ \begin{itemize}
+     \item Conceitos básicos
+     \item Tarefas
+ \end{itemize}
+\end{frame}
+\section{Conceitos básicos}
+\begin{frame}{História Unix}
+	
+\end{frame}
+\end{document}
